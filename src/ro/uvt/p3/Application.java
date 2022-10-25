@@ -13,6 +13,7 @@ public class Application {
     }
 
     public void run(){
-
+        String line = id.nextLine();
+        od.writeMessage(line);
     }
 }
